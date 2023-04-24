@@ -1,0 +1,144 @@
+/*! CSS Used from: https://static.relax.by/css/afisha/project_relax/all.css?bc6929dc31f1109c0665fbcbedbf36da */
+section{display:block;}
+a:active,a:focus,a:hover{outline:0;}
+h2{font-size:1.5em;margin:0 .83em;}
+p{margin:0 0 1em;}
+ul{margin:0;list-style:none;}
+ul{padding:0;}
+li{padding:0;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+.group:after,.group:before{content:" ";display:table;}
+.group:after{clear:both;}
+a{color:#0095cc;}
+.adFox{display:flex;justify-content:center;flex:1 1 auto;height:max-content!important;}
+@media only screen and (min-width:768px){
+.addFox--isPhone{display:none!important;}
+}
+@media only screen and (max-width:767px){
+.adFox{height:300px!important;margin-top:0!important;}
+.addFox--isDesktop{display:none!important;}
+}
+*{-webkit-tap-highlight-color:transparent!important;}
+.wysiwyg{margin:0 0 48px;font:400 15px/24px Proxima!important;}
+.wysiwyg *{color:rgba(0,0,0,.9)!important;}
+.wysiwyg a:not(.mag-button):not(.mag-fix-button){color:#00AEEF!important;cursor:pointer!important;text-decoration:none!important;}
+.wysiwyg a:not(.mag-button):not(.mag-fix-button):hover{color:#F15A24!important;}
+.wysiwyg p{margin:20px 0!important;}
+.wysiwyg{font:400 16px/24px Proxima!important;}
+.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent;}
+.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0;}
+.slick-list:focus{outline:0;}
+.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto;}
+.slick-track:after,.slick-track:before{display:table;content:'';}
+.slick-track:after{clear:both;}
+.slick-slide{display:none;float:left;height:100%;min-height:1px;}
+.slick-slide img{display:block;}
+.slick-initialized .slick-slide{display:block;}
+.b-afisha-full-wrap{float:left;width:100%;margin-top:24px;}
+.b-afisha_page_offset{margin-top:-24px;}
+.afisha .b-where-to{display:flex;align-items:center;justify-content:space-between;}
+.afisha .b-where-to.group:after,.afisha .b-where-to.group:before{content:none;}
+.afisha .b-where-to_heading{margin:0;font:600 21px/28px Proxima;width:max-content;}
+.afisha .b-where-to_heading_lnk{color:#000;text-decoration:none;transition-property:color;transition-duration:.2s;}
+.afisha .b-where-to_heading_lnk:hover{color:rgba(0,0,0,.64);}
+.b-afisha-layout_maldives_strap{overflow:hidden;margin:24px 0 24px;}
+.b-afisha-layout_maldives_strap_afisha{margin:20px 0 40px;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list{margin:0;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list .slick-track{display:flex!important;width:max-content!important;}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list{flex-flow:inherit!important;overflow-x:auto;overflow-y:hidden;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list::-webkit-scrollbar{display:none;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li{-webkit-flex:auto;-moz-flex:auto;-ms-flex:auto;flex:auto;max-width:230px;min-width:230px;width:100%!important;margin-right:12px;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li:last-child{margin-right:0;}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li{max-width:148px;min-width:148px;margin-right:8px;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li .b-afisha-layout_strap--item{margin:0 12px 0 0;max-width:230px;width:auto!important;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li .b-afisha-layout_strap--item .b-afisha_blocks-strap_item_lnk{height:310px;}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li .b-afisha-layout_strap--item .b-afisha_blocks-strap_item_lnk{height:210px;}
+}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap__list li .b-afisha-layout_strap--item{width:100%!important;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_strap--item{margin:0 24px 0 0;width:282px!important;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_strap--item:last-child{margin:0;}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_strap--item{width:230px!important;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img{position:relative;margin-bottom:12px;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img .btn{margin:0;padding:4px 8px 4px 32px;position:absolute;bottom:12px;left:12px;background:#E5F5FC;border-radius:4px;color:#0095CC;letter-spacing:.8px;text-align:center;font:600 13px/20px Proxima;border:none;transition-property:color;transition-duration:.2s;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img .btn:before{content:"";position:absolute;left:10px;top:6px;width:17px;height:14px;background-size:cover;background-image:url(https://static.relax.by/bem/images/relax/ticket_afisha.svg);}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img .btn:before{left:9px;top:6px;width:14px;height:11px;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img .btn:hover{color:rgba(0,149,204,.48);}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img .btn{font:600 11px/16px Proxima;padding:4px 8px 4px 28px;}
+}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_img{margin-bottom:10px;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap_date{font:400 13px/20px Proxima;letter-spacing:1.2px;text-transform:uppercase;color:rgba(0,0,0,.48);}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha-layout_maldives_strap_date{font:400 11px/20px Proxima;margin-bottom:0;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_txt{color:#000;font:400 17px/24px Proxima;transition-property:color;transition-duration:.2s;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_txt:hover{color:rgba(0,0,0,.48);}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk_txt{font:400 15px/21px Proxima;}
+}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk{max-width:282px;height:420px;margin:0;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk .b-afisha_blocks-movies_item_img{width:100%;height:100%;object-fit:cover;border-radius:8px;opacity:1;transition-property:opacity;transition-duration:.2s;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk .b-afisha_blocks-movies_item_img:hover{opacity:.8;}
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk .b-afisha_blocks-movies_item_lnk_premier{background:#F15A24;color:#fff;border-radius:0 7px;left:auto;right:0;top:0;font:400 12px/16px Proxima;width:auto;height:auto;padding:4px 8px;z-index:1;}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha .b-afisha_blocks-strap_item_lnk{height:200px;}
+}
+@media only screen and (max-width:1000px){
+.b-afisha-layout_maldives_strap_afisha{margin:16px 0 32px;}
+}
+.b-afisha-layout_maldives_strap__list{margin:0 -12px;font-size:0;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;display:flex;-webkit-flex-flow:row nowrap;-moz-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-justify-content:flex-start;-moz-justify-content:flex-start;-ms-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}
+.b-afisha-layout_maldives_strap li{min-width:174px;max-width:219px;display:inline-block;vertical-align:top;text-align:left;-webkit-flex:1 0 174px;-moz-flex:1 0 174px;-ms-flex:1 0 174px;flex:1 0 174px;}
+.b-afisha-layout_maldives_strap li .btn{margin-top:8px;}
+.b-afisha-layout_strap--item{margin:0 12px 24px 12px;}
+.b-afisha-layout_maldives_strap_date{display:block;margin-bottom:4px;text-align:left;text-decoration:none;font-family:Proxima;font-size:14px;color:rgba(0,0,0,.5);}
+.b-where-to_all-items{position:relative;font:400 15px/24px Proxima;color:#0095CC;padding-right:24px;text-decoration:none;transition-property:color;transition-duration:.2s;}
+.b-where-to_all-items:after{content:"";position:absolute;right:5px;top:8px;transform:rotate(-45deg);height:6px;width:6px;border-bottom:1px solid #0095CC;border-right:1px solid #0095CC;transition-property:border-bottom,border-right;transition-duration:.2s;}
+.b-where-to_all-items:hover{color:rgba(0,149,204,.64);}
+.b-where-to_all-items:hover:after{border-bottom:1px solid rgba(0,149,204,.64);border-right:1px solid rgba(0,149,204,.64);}
+.b-afisha_blocks-strap_item_lnk{position:relative;display:block;margin-bottom:12px;text-align:center;}
+.b-afisha_blocks-strap_item_lnk_txt{font:400 16px/20px Proxima;word-wrap:break-word;}
+.b-afisha_blocks-strap_item_lnk_txt:hover{color:#4cc9ff;}
+.b-afisha-btm-seo{width:780px;max-width:100%;padding:15px 0 20px;}
+.b-afisha-btm-seo p{font:12px/1.5 Verdana;}
+@media only screen and (max-width:1000px){
+.is-response .afisha .b-where-to_heading{float:none;font:600 18px/24px Proxima;}
+.is-response .b-afisha-layout_maldives_strap__list{-webkit-flex-flow:row wrap;-moz-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;}
+.is-response .b-afisha-layout_maldives_strap li{min-width:140px;-webkit-flex:1 0 140px;-moz-flex:1 0 140px;-ms-flex:1 0 140px;flex:1 0 140px;}
+.is-response .b-afisha-layout_maldives_strap li:empty{display:block;}
+.is-response .b-where-to_all-items{margin-right:0!important;}
+}
+#append-shcedule{transition:height .5s ease-in 0s;}
+#append-shcedule .adFox{margin-top:-8px!important;}
+@media only screen and (max-width:1000px){
+#append-shcedule .adFox{margin-top:0!important;margin-bottom:32px!important;}
+}
+.b-afisha_blocks-movies_item_img{width:auto;vertical-align:bottom;}
+.b-afisha_blocks-movies_item_lnk_premier{position:absolute;top:-1px;left:-1px;width:65px;height:66px;background:url(https://static.relax.by/bem/images/ico/premier.png) no-repeat;}
+.link{color:#000;text-decoration:none;cursor:pointer;}
+.link:hover{color:#00AEEF;}
+.link:active{color:#000;}
+.btn{display:inline-block;font-family:Proxima;color:#FFF;white-space:nowrap;cursor:pointer;border-width:1px;border-style:solid;border-radius:2px;outline:0;vertical-align:middle;text-decoration:none;transition:color .12s ease-in-out;transition-property:color,background,border-color;text-align:center;font-weight:400;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-ms-touch-action:manipulation;touch-action:manipulation;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding:9px 15px;font-size:13px;line-height:16px;}
+.btn{color:#000;background-color:transparent;border-color:rgba(0,0,0,.2);}
+.btn:hover{color:#000;background-color:transparent;border-color:#0abcff!important;}
+.btn:active,.btn:focus{color:#FFF;background-color:#00AEEF;border-color:#00AEEF!important;}
+.btn--xs{border-radius:2px;padding:5px 7px;font-size:11px;line-height:12px;}
+.btn--theme-2{color:#FFF;background-color:#00AEEF;border-color:#00AEEF;}
+.btn--theme-2:hover{color:#FFF;background-color:#0abcff;border-color:#0abcff!important;}
+.btn--theme-2:active,.btn--theme-2:focus{color:#FFF;background-color:#009bd6;border-color:#009bd6!important;}
+.text-uppercase{text-transform:uppercase;}
+/*! CSS Used fontfaces */
+@font-face{font-family:Proxima;font-weight:400;font-style:normal;}
